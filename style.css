@@ -53,7 +53,7 @@
     margin-bottom: 40px;
     margin-left: 14px;
 }
-#button_screen div{
+#button_screen button{
     background-color: #010409;
     height: 50px;
     width: 70px;
@@ -64,7 +64,4 @@
     justify-content: center;
     align-items: center;
     cursor: pointer;
-}
-#button_screen div :hover {
-    background-color: #154495;
 }
