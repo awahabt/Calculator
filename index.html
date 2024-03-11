@@ -9,27 +9,27 @@
       <div class="calculator_container">
         <p id="main_line">Calculator</p>
 
-        <div id="display_screen"></div>
+        <input id="display_screen" style="color: white;">
 
         <div id="button_screen">
-          <button onclick="clear()">AC</button>
-          <button>X</button>
-          <button>/</button>
-          <button>*</button>
-          <button>7</button>
-          <button>8</button>
-          <button>9</button>
-          <button>-</button>
-          <button>4</button>
-          <button>5</button>
-          <button>6</button>
-          <button>+</button>
-          <button>1</button>
-          <button>2</button>
-          <button>3</button>
-          <button>.</button>
-          <button style="width: 152px">0</button>
-          <button style="width: 150px; background-color: #272b33">=</button>
+          <!-- <button onclick="clear()">AC</button> -->
+          <button onclick="clear()" style="width: 150px;">C</button>
+          <button onclick="Character('/')">/</button>
+          <button onclick="Character('*')">*</button>
+          <button onclick="Character('7')">7</button>
+          <button onclick="Character('8')">8</button>
+          <button onclick="Character('9')">9</button>
+          <button onclick="Character('-')">-</button>
+          <button onclick="Character('4')">4</button>
+          <button onclick="Character('5')">5</button>
+          <button onclick="Character('6')">6</button>
+          <button onclick="Character('+')">+</button>
+          <button onclick="Character('1')">1</button>
+          <button onclick="Character('2')">2</button>
+          <button onclick="Character('3')">3</button>
+          <button onclick="Character('.')">.</button>
+          <button onclick="Character('0')" style="width: 152px">0</button>
+          <button onclick="calculate_result('')" style="width: 150px; background-color: #272b33">=</button>
         </div>
       </div>
     </div>
