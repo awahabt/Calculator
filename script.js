@@ -1,7 +1,8 @@
 let display = document.getElementById('display_screen');
-let currentInput = '';
 
-function character(character){
-    currentInput += character;
-    display.value = currentInput;
-}
+let buttons = document.querySelectorAll('button');
+
+let BtnArray = Array.from(buttons);
+
+
+console.log(BtnArray);
