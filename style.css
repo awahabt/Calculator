@@ -67,3 +67,7 @@ button{
     align-items: center;
     cursor: pointer;
 }
+button:hover{
+    background-color: #272b33;
+    transition: 0.3s all ease;
+}
