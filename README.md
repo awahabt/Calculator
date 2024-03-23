@@ -7,19 +7,4 @@ This repository contains the code for a simple calculator implemented using HTML
 - **Clear Functionality:** The "AC" button allows users to clear the display, resetting the calculator.
 - **Responsive Design:** The calculator interface is designed to be responsive, ensuring a consistent user experience across different devices.
 
-## Code Structure
-- **HTML:** Contains the structure of the calculator interface, including buttons for numbers, operators, and the display screen.
-- **CSS:** Defines the styles and layout of the calculator interface, including colors, fonts, and button sizes.
-- **JavaScript:** Implements the functionality of the calculator, handling user interactions such as button clicks and updating the display accordingly.
-
-## Usage
-1. Clone the repository to your local machine using `git clone`.
-2. Open the `index.html` file in a web browser to view the calculator.
-3. Perform calculations by clicking on the buttons for numbers and operators.
-4. Use the "AC" button to clear the display, and the "=" button to calculate the result.
-
-## Contributing
-Contributions to improve the calculator or add new features are welcome. If you have any suggestions or find any bugs, feel free to open an issue or submit a pull request.
-
-## License
-This project is licensed under the MIT License - see the `LICENSE` file for details.
+![Screenshot 2024-03-13 at 17-38-50 Calculator](https://github.com/awahabt/Calculator/assets/133004396/1d378724-c343-4a9c-bc42-56bca49b981a)
